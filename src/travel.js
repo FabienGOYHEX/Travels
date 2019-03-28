@@ -9,7 +9,7 @@ render(){
     return (
         <div>
             <h1> {this.props.destination} </h1>
-            <h3>{this.props.contry}</h3>
+            <h3>{this.props.country}</h3>
         <p> cette destination est a une distance de {this.props.distance}</p>
         <img src= {this.props.photo}></img>
         </div>
